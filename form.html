@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Absensi Asrama Ramadhan</title>
     <style>
+        *{
+            text-align: center;
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -13,18 +16,26 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+
+            background-image: url('Masjid.jpg'); /* Ganti dengan URL atau path gambar */
+            background-size: cover; /* Agar gambar memenuhi seluruh halaman */
+            background-position: center; /* Pusatkan gambar */
+            background-repeat: no-repeat; /* Hindari gambar berulang */
+            height: 100vh; /* Pastikan tinggi penuh */
+            margin: 0;
         }
         .container {
             background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            text-align: left;
             width: 300px;
         }
         h1 {
             color: #333;
             font-size: 20px;
+            text-align: center;
         }
         input, select {
             width: 100%;
@@ -33,12 +44,10 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             display: block;
-            text-align: left;
             box-sizing: border-box;
         }
         label {
             display: block;
-            text-align: left;
             font-weight: bold;
             margin-top: 10px;
         }
@@ -49,6 +58,7 @@
             border: none;
             cursor: pointer;
             width: 100%;
+            text-align: center;
         }
         input[type="submit"]:hover {
             background: #218838;
